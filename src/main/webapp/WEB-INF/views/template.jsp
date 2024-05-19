@@ -18,7 +18,7 @@
 </head>
 <body>
 
-    <div class="container">
+    <div class="container mt-3">
         <h2>Spring기반 RESTful API SOA 서비스 개발</h2>
         <div class="card">
             <div class="card-header">
@@ -26,9 +26,9 @@
                    <div class="col-4">Welcome, GUEST님 / 적립금 : 0원</div>
                    <div class="col-8">
                          <form class="form-inline" action="로그인경로" method="post">
-                                        <label for="text">아이디:</label>
+                                        <label for="username">아이디:</label>
                                         <input type="text" class="form-control" placeholder="Enter username" id="username" name="username">
-                                        <label for="pwd">패스워드:</label>
+                                        <label for="password">패스워드:</label>
                                          <input type="password" class="form-control" placeholder="Enter password" id="password" name="password">
                                          <button type="submit" class="btn btn-primary">로그인</button>
                          </form>
